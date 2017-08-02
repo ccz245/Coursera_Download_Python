@@ -1,0 +1,19 @@
+the use of python 3 is for its secure connections
+
+# trigger specific python virtual env
+workon PythonEnv_CourseraDownload
+
+# pip install coursera-dl
+pip3 install coursera-dl
+
+
+
+
+
+
+
+
+
+
+
+

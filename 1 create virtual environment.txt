@@ -1,0 +1,47 @@
+http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
+
+the virtual env "PythonEnv_CourseraDownload" is created in C:\Users\charl\Envs
+and can be triggered with "workon PythonEnv_CourseraDownload"
+the use of virtual env is preferred to avoid conflicts with the global python installation
+
+
+
+# pip install of virtual environment for different versions of python
+
+pip2 install virtualenv
+pip3 install virtualenv
+
+pip2 install virtualenvwrapper-win
+pip3 install virtualenvwrapper-win
+
+
+# move to project folder
+cd "C:\Users\charl\Google Drive\10. Coding\201707 Download Coursera with Python"
+
+# create virtual environment in project folder
+mkvirtualenv --python="C:\Program Files (x86)\Python36-32\python.exe" PythonEnv_CourseraDownload
+
+# alternative creation command
+mkvirtualenv --python=python3 nameOfEnvironment
+
+# the default make virtual env will use the default python (v2.7 at the time of this instruction)
+mkvirtualenv PythonEnv_CourseraDownload
+
+# activate virtual env
+workon PythonEnv_CourseraDownload 
+
+# exist out of the virtual env
+deactivate
+
+# remove virtual env
+rmvirtualenv PythonEnv_CourseraDownload -r
+
+
+
+
+
+
+
+
+
+
